@@ -1,0 +1,30 @@
+{
+  "name": "wp-umbrea-concerto-theme",
+  "version": "1.0.0",
+  "description": "Theme for the Umbrea Concerto association.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiliano-sangoi/wp-umbrea-concerto-theme.git"
+  },
+  "keywords": [
+    "Wordpress",
+    "Bootstrap",
+    "5",
+    "Responsive"
+  ],
+  "author": "Emiliano Sangoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emiliano-sangoi/wp-umbrea-concerto-theme/issues"
+  },
+  "homepage": "https://github.com/emiliano-sangoi/wp-umbrea-concerto-theme#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.3",
+    "jquery": "^3.6.0"
+  }
+}

@@ -1,0 +1,62 @@
+<?php get_header(); ?>
+
+    <!-- Content section 1-->
+    <section id="scroll" class="bg-secondary">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="<?php echo IMG_DIR; ?>/01.jpg"
+                                          alt="..."/></div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">Chi siamo</h2>
+                        <p class="lead">
+                            L'Associazione Culturale Umbri-A Concerto nasce nel 2007 ed è composta da musicisti professionisti, artisti e professionisti di altri campi. Abbiamo tutti in comune l'amore per l'arte e l'arte, nelle sue diverse forme ed espressioni, è al centro delle attività di Umbri-A Concerto.
+                        </p>
+                        <p class="lead">
+                            Dal 2012 l'associazione è iscritta nel registro delle APS (Associazioni di Promozione Sociale) dell'Umbria.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 2-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="<?php echo IMG_DIR; ?>/02.jpg" alt="..."/></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">We salute you!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam
+                            sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
+                            voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 3-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="<?php echo IMG_DIR; ?>/03.jpg" alt="..."/></div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">Let there be rock!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam
+                            sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
+                            voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<?php get_footer(); ?>

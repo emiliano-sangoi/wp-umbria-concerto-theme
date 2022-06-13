@@ -1,0 +1,50 @@
+// 
+// Navbar
+// 
+
+.navbar-custom {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    background-color: fade-out($limestone, 0.1);
+
+    .navbar-brand {
+
+        //.brand-title{
+        //    text-transform: uppercase;
+        //    font-size: 1.2rem;
+        //    letter-spacing: 0.1rem;
+        //    font-weight: 700;
+        //    color: $black !important;
+        //
+        //    small{
+        //        font-style: italic;
+        //    }
+        //
+        //    a{
+        //        img{
+        //            width: 30%;
+        //        }
+        //    }
+        //}
+
+
+
+
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $moss_river;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                font-weight: 700;
+                letter-spacing: 0.1rem;
+
+                &:hover{
+                    //color: $venice;
+                }
+            }
+        }
+    }
+}
