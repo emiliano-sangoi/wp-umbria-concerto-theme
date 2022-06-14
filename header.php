@@ -61,17 +61,19 @@
     </div>
 </nav>
 <!-- Header-->
-<!--  <header class="masthead text-center text-white">-->
-<!--      <div class="masthead-content">-->
-<!--          <div class="container px-5">-->
-<!--              <h1 class="masthead-heading mb-0">Umbri-a Concerto</h1>-->
-<!--              <h2 class="masthead-subheading mb-0">-->
-<!--                  Abbiamo tutti in comune l’amore per l’arte e l’arte, nelle sue diverse forme ed espressioni, è al centro delle attività di Umbri-A Concerto-->
-<!--              </h2> -->
-<!--              <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>-->
-<!--          </div>-->
-<!--      </div>-->
-<!--  </header>-->
+  <header class="masthead text-center text-white">
+      <div class="masthead-content">
+          <div class="container px-5">
+              <h1 class="masthead-heading mb-0 text-uppercase text-color-venice">Umbri-a Concerto</h1>
+              <small class="masthead-subheading mb-0 d-block py-5">
+                  Abbiamo tutti in comune l’amore per l’arte e l’arte, nelle sue diverse forme ed espressioni, è al centro delle attività di Umbri-A Concerto
+              </small>
+              <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Chi siamo</a>
+              <a class="btn btn-secondary btn-xl rounded-pill mt-5" href="#scroll">Contacti</a>
+          </div>
+      </div>
+  </header>
+<!--
 <header class="masthead text-center text-white">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -82,10 +84,14 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner position-relative">
+
+            <div class="position-absolute" style="top:30vh;z-index:1000;left:35%">
+                <h1 class="masthead-heading mb-0 text-white text-uppercase">Umbri-a Concerto</h1>
+            </div>
 
             <div class="carousel-item active"
-                 style="background-image: url(<?php echo IMG_DIR . '/Concerto-Tango-Sensations-Gubbio-2009-20_b80.png'; ?>)">
+                 style="background-image: url(<?php //echo IMG_DIR . '/Concerto-Tango-Sensations-Gubbio-2009-20_b80.png'; ?>)">
                 <div class="carousel-caption">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
@@ -118,3 +124,4 @@
         </button>
     </div>
 </header>
+-->

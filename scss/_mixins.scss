@@ -11,15 +11,9 @@
   background-size: cover;
 }
 
-//@mixin serif-font() {
-//  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-//}
-//@mixin sans-serif-font() {
-//  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-//}
-
 @mixin primary-font() {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
+  //'Open Sans', sans-serif !important;
 }
 
 @mixin smooth-transition($time){
