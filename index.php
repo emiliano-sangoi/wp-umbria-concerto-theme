@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <!-- Content section 1-->
-    <section id="chi-siamo" class="bg-secondary">
+    <section id="chi-siamo" class="bg-venice">
         <div class="container px-5 py-lg-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
@@ -29,15 +29,15 @@
         </div>
     </section>
     <!-- Content section 2-->
-    <section>
-        <div class="container px-5">
+    <section id="eventi" class="bg-blue_italy">
+        <div class="container px-5 py-lg-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6">
                     <div class="p-5"><img class="img-fluid rounded-circle" src="<?php echo IMG_DIR; ?>/02.jpg" alt="..."/></div>
                 </div>
                 <div class="col-lg-6">
                     <div class="p-5">
-                        <h2 class="display-4">We salute you!</h2>
+                        <h2 class="display-4">Eventi</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam
                             sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
                             voluptatum molestiae adipisci, beatae obcaecati.</p>

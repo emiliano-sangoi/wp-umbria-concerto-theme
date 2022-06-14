@@ -8776,11 +8776,11 @@ header.masthead {
     font-family: 'Roboto' !important;
     font-weight: bold;
     font-size: 2.8rem;
-    color: #DFE2D2;
-    border-bottom: 3px ridge #6CBF84;
+    color: #323339;
+    border-bottom: 2px solid #DFE2D2;
     padding-bottom: .5rem; }
   #chi-siamo p {
-    color: #DFE2D2;
+    color: #323339;
     font-weight: 200;
     font-style: italic;
     font-size: 1.25rem; }
@@ -8878,40 +8878,46 @@ crearan automaticamentes fondos y colores de texto
 .text-color-black {
   color: #000; }
 
-.bg-color-primario {
+.bg-primario {
   background-color: #6CBF84; }
 
-.text-color-color-primario {
+.text-color-primario {
   color: #6CBF84; }
 
-.bg-color-venice {
+.bg-venice {
   background-color: #6CBF84; }
 
-.text-color-color-venice {
+.text-color-venice {
   color: #6CBF84; }
 
-.bg-color-limestone {
+.bg-limestone {
   background-color: #DFE2D2; }
 
-.text-color-color-limestone {
+.text-color-limestone {
   color: #DFE2D2; }
 
-.bg-color-ruby_grapefruit {
+.bg-ruby_grapefruit {
   background-color: #F26968; }
 
-.text-color-color-ruby_grapefruit {
+.text-color-ruby_grapefruit {
   color: #F26968; }
 
-.bg-color-rosa {
+.bg-rosa {
   background-color: #F2AD9F; }
 
-.text-color-color-rosa {
+.text-color-rosa {
   color: #F2AD9F; }
 
-.bg-color-default {
+.bg-default {
   background-color: #DFE2D2; }
 
-.text-color-color-default {
+.text-color-default {
   color: #DFE2D2; }
+
+.bg-blue_italy {
+  background-color: #0A36AF; }
+
+.text-color-blue_italy {
+  color: #0A36AF; }
 
 /*# sourceMappingURL=style.css.map */

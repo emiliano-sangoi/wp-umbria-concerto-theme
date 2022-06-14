@@ -39,12 +39,13 @@ $colors: (
         'gray-800': $gray-800,
         'gray-900': $gray-900,
         'black': $black,
-        'color-primario': $color-primario,
-        'color-venice': $venice,
-        'color-limestone': $limestone,
-        'color-ruby_grapefruit': $ruby_grapefruit,
-        'color-rosa': $rosa,
-        'color-default': $color-default
+        'primario': $color-primario,
+        'venice': $venice,
+        'limestone': $limestone,
+        'ruby_grapefruit': $ruby_grapefruit,
+        'rosa': $rosa,
+        'default': $color-default,
+        'blue_italy': $blue_italy
 );
 
 @each $name, $color in $colors{
